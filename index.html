@@ -3,64 +3,47 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>BRO TUKANG ELITE</title>
+  <title>Bro Tukang Elite</title>
   <style>
     body {
       margin: 0;
-      height: 100vh;
-      background: linear-gradient(to bottom, #2C0000, #0D1B2A);
-      color: white;
       font-family: 'Segoe UI', sans-serif;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
+      background: linear-gradient(to bottom, #0D1B2A, #000000);
+      color: white;
       text-align: center;
     }
-
+    nav {
+      background-color: rgba(0, 0, 0, 0.4);
+      padding: 15px;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
     .container {
-      background-color: rgba(255, 255, 255, 0.05);
-      padding: 30px 40px;
-      border-radius: 15px;
-      box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
-      max-width: 500px;
+      margin-top: 50px;
     }
-
-    h1 {
-      font-size: 3rem;
-      margin: 0 0 10px 0;
-      text-shadow: 1px 1px 2px #000;
-    }
-
-    p {
-      font-size: 1.1rem;
-      line-height: 1.6;
-      text-shadow: 1px 1px 1px #000;
-    }
-
-    img {
-      width: 200px;
-      margin-bottom: 20px;
-      border-radius: 12px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    .logo-bottom {
+      margin: 30px auto;
+      width: 100px;
     }
   </style>
 </head>
 <body>
+  <nav>
+    <a href="index.html">Beranda</a>
+    <a href="jasa.html">Jasa Joki</a>
+    <a href="kontak.html">Kontak</a>
+  </nav>
   <div class="container">
-   
- <img src="logo-coc.png" alt="COC Logo" class="logo-coc">
-
-.logo-coc {
-  position: absolute;
-  right: 15px;
-  top: 10px;
-  width: 40px;
-}
-
-
-    <h1>Bro Tukang Elite</h1>
-    <p>Website pribadi tukang elite COC. Bangun, joki, dan elite terus setiap hari 💪🛠️</p>
+    <h1>Selamat datang di Bro Tukang Elite</h1>
+    <p>Situs resmi tukang elite COC. Joki aman, cepat, terpercaya 💪🛠️</p>
   </div>
+
+  <!-- LOGO DITEMPEL DI BAWAH -->
+  <img src="logo-coc.png" alt="Logo COC" class="logo-bottom">
+
 </body>
 </html>
