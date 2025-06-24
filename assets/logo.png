@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bro Tukang Elite</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #111;
+      color: #fff;
+      text-align: center;
+    }
+    .container {
+      padding: 50px 20px;
+    }
+    img {
+      max-width: 300px;
+      border-radius: 20px;
+    }
+    h1 {
+      font-size: 3em;
+      margin-top: 20px;
+    }
+    p {
+      font-size: 1.2em;
+      color: #ccc;
+    }
+    .footer {
+      margin-top: 60px;
+      font-size: 0.9em;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="assets/img/logo.png" alt="Bro Tukang Elite Logo">
+    <h1>Bro Tukang Elite</h1>
+    <p>Web personal tukang Clash of Clans legendaris. Dulu punya 17 akun, sekarang fokus elite coding.</p>
+    <p><strong>Stay tuned</strong>, lebih banyak konten bakal datang!</p>
+    <div class="footer">© 2025 Bro Tukang Elite</div>
+  </div>
+</body>
+</html>
