@@ -1,51 +1,18 @@
-# Menyimpan HTML final ke dalam file `index.html` siap pakai dengan gambar banana builder dalam base64
-
-html_code = """
-
+<!-- index.html -->
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
-
   <meta charset="UTF-8" />
-
   <title>Bro Tukang Elite</title>
-
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 </head>
-
 <body style="background:#111; color:#fff; text-align:center; padding:50px; font-family:sans-serif;">
-
   <h1>Bro Tukang Elite</h1>
-
   <p>🔥 Web tukang paling elite di jagat GitHub 🔥</p>
-
   <img
-
-    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQAAAABACAYAAACqCYaA..."
-
+    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABACAYAAACqCyYaAAAADUlEQVR42mP8z8BQDwAF0QH+f9ZYZQAAAABJRU5ErkJggg=="
     alt="Bro Tukang Elite"
-
-    style="width:300px; border-radius:20px; box-shadow:0 0 20px #0ff;" />
-
+    style="width:300px; border-radius:20px; box-shadow:0 0 20px #0ff;"
+  />
 </body>
-
 </html>
-
-"""
-
-
-
-# Simpan ke file
-
-file_path = "/mnt/data/index.html"
-
-with open(file_path, "w") as f:
-
-    f.write(html_code)
-
-
-
-file_path
