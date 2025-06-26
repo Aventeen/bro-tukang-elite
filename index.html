@@ -1,97 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>Bro Tukang Elite</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    body {
-      background: #111;
-      color: #fff;
-      text-align: center;
-      padding: 50px;
-      font-family: 'Arial', sans-serif;
-    }
-    h1 {
-      font-size: 2.5em;
-      margin-bottom: 0.2em;
-    }
-    p {
-      font-size: 1.2em;
-      margin-bottom: 30px;
-    }
-    img {
-      max-width: 100px;
-      height: auto;
-      border: 2px solid #aaa;
-      margin-bottom: 30px;
-    }
-    .nav a {
-      text-decoration: none;
-      color: #0ff;
-      background: #222;
-      padding: 10px 20px;
-      margin: 0 10px;
-      border-radius: 8px;
-      border: 1px solid #0ff;
-      transition: all 0.3s ease;
-      display: inline-block;
-    }
-    .nav a:hover {
-      background: #0ff;
-      color: #000;
-      box-shadow: 0 0 10px #0ff, 0 0 20px #0ff;
-      transform: scale(1.05);
-    }
-    #music-control {
-      margin-top: 40px;
-      padding: 10px 20px;
-      border: 1px solid #0ff;
-      background: #222;
-      color: #0ff;
-      cursor: pointer;
-      border-radius: 8px;
-      transition: all 0.3s ease;
-    }
-    #music-control:hover {
-      background: #0ff;
-      color: #000;
-      box-shadow: 0 0 10px #0ff;
-    }
-  </style>
+    <title>Ikon Google Bro!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-  <h1>Bro Tukang Elite</h1>
-  <p>🔥 Web tukang paling elite di jagat GitHub 🔥</p>
+    <h1>Ini Dia Ikon Kecil Google!</h1>
+    <p>Ini adalah ikon atau favicon dari google.com, Bro. Seharusnya sangat stabil juga.</p>
+    
+    <img src="https://www.google.com/favicon.ico" 
+         alt="Ikon Google" 
+         style="width: 64px; height: 64px; border: 1px solid #ccc; margin-bottom: 20px;">
+    
+    <p>Gimana, Bro? Ikonnya kelihatan sekarang?</p>
 
-  <img src="https://www.google.com/chrome/static/images/chrome-logo.svg" alt="Logo Google Chrome">
+    ---
 
-  <div class="nav">
-    <a href="about.html">Tentang</a>
-    <a href="contact.html">Kontak</a>
-    <a href="testimoni.html">Testimoni</a>
-  </div>
+    <h2>Sebagai Pembanding:</h2>
+    <p>Logo Google utama (yang sudah terbukti muncul):</p>
+    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" 
+         alt="Logo Google Utama" 
+         style="max-width: 100%; height: auto; border: 2px solid #333; margin-bottom: 20px;">
 
-  <audio id="bg-music" autoplay loop style="display: none;">
-  <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
-  Browser kamu tidak mendukung audio.
-</audio>
-
-  <button id="music-control" onclick="toggleMusic()">🔈 Matikan Musik</button>
-
-  <script>
-    const music = document.getElementById('bg-music');
-    const btn = document.getElementById('music-control');
-
-    function toggleMusic() {
-      if (music.paused) {
-        music.play();
-        btn.innerText = '🔈 Matikan Musik';
-      } else {
-        music.pause();
-        btn.innerText = '🔇 Nyalakan Musik';
-      }
-    }
-  </script>
+    <p>Logo Chrome (yang baru saja kamu konfirmasi muncul):</p>
+    <img src="https://www.google.com/chrome/static/images/chrome-logo.svg" 
+         alt="Logo Google Chrome" 
+         style="max-width: 100%; height: auto; border: 2px solid #aaa;">
+    
 </body>
 </html>
