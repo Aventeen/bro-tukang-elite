@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tentang Bro</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body style="background:#111; color:#fff; text-align:center; padding:50px; font-family:sans-serif;">
+  <h1>Tentang Bro Tukang Elite</h1>
+  <p>Gue tukang elite sejati, spesialis ngoding, ngulik, dan ngoprek apa aja 💻🛠️</p>
+
+  <p><a href="index.html" style="color:#0ff;">⬅️ Balik ke Halaman Utama</a></p>
+</body>
+</html>
