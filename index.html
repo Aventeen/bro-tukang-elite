@@ -71,33 +71,27 @@
     <a href="contact.html">Kontak</a>
     <a href="testimoni.html">Testimoni</a>
   </div>
-  
-    <audio id="bg-music" autoplay loop style="display: none;">
+
+  <audio id="bg-music" autoplay loop style="display: none;">
   <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
   Browser kamu tidak mendukung audio.
 </audio>
 
-<button id="music-control" onclick="toggleMusic()">🔇 Matikan Musik</button>
+  <button id="music-control" onclick="toggleMusic()">🔈 Matikan Musik</button>
 
-<script>
-  const music = document.getElementById('bg-music');
-  const btn = document.getElementById('music-control');
+  <script>
+    const music = document.getElementById('bg-music');
+    const btn = document.getElementById('music-control');
 
-  // Mulai otomatis setelah interaksi pertama (buat HP)
-  window.addEventListener('click', () => {
-    music.play().catch(() => {});
-  }, { once: true });
-
-  function toggleMusic() {
-    if (music.paused) {
-      music.play();
-      btn.innerText = '🔇 Matikan Musik';
-    } else {
-      music.pause();
-      btn.innerText = '🔊 Nyalakan Musik';
+    function toggleMusic() {
+      if (music.paused) {
+        music.play();
+        btn.innerText = '🔈 Matikan Musik';
+      } else {
+        music.pause();
+        btn.innerText = '🔇 Nyalakan Musik';
+      }
     }
-  }
-</script>
-
+  </script>
 </body>
 </html>
